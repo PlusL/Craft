@@ -1,0 +1,3 @@
+/Users/Prince/Documents/GitHub/Craft/deps/glfw/CMakeFiles/uninstall.dir
+/Users/Prince/Documents/GitHub/Craft/CMakeFiles/craft.dir
+/Users/Prince/Documents/GitHub/Craft/deps/glfw/src/CMakeFiles/glfw.dir
