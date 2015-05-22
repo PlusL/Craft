@@ -9,8 +9,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/Prince/Documents/GitHub/Craft/deps/noise/noise.c" "/Users/Prince/Documents/GitHub/Craft/CMakeFiles/craft.dir/deps/noise/noise.c.o"
   "/Users/Prince/Documents/GitHub/Craft/deps/sqlite/sqlite3.c" "/Users/Prince/Documents/GitHub/Craft/CMakeFiles/craft.dir/deps/sqlite/sqlite3.c.o"
   "/Users/Prince/Documents/GitHub/Craft/deps/tinycthread/tinycthread.c" "/Users/Prince/Documents/GitHub/Craft/CMakeFiles/craft.dir/deps/tinycthread/tinycthread.c.o"
-  "/Users/Prince/Documents/GitHub/Craft/src/auth.c" "/Users/Prince/Documents/GitHub/Craft/CMakeFiles/craft.dir/src/auth.c.o"
-  "/Users/Prince/Documents/GitHub/Craft/src/client.c" "/Users/Prince/Documents/GitHub/Craft/CMakeFiles/craft.dir/src/client.c.o"
   "/Users/Prince/Documents/GitHub/Craft/src/cube.c" "/Users/Prince/Documents/GitHub/Craft/CMakeFiles/craft.dir/src/cube.c.o"
   "/Users/Prince/Documents/GitHub/Craft/src/db.c" "/Users/Prince/Documents/GitHub/Craft/CMakeFiles/craft.dir/src/db.c.o"
   "/Users/Prince/Documents/GitHub/Craft/src/item.c" "/Users/Prince/Documents/GitHub/Craft/CMakeFiles/craft.dir/src/item.c.o"

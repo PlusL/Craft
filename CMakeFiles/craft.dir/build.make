@@ -49,55 +49,9 @@ include CMakeFiles/craft.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/craft.dir/flags.make
 
-CMakeFiles/craft.dir/src/auth.c.o: CMakeFiles/craft.dir/flags.make
-CMakeFiles/craft.dir/src/auth.c.o: src/auth.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Prince/Documents/GitHub/Craft/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/craft.dir/src/auth.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/craft.dir/src/auth.c.o   -c /Users/Prince/Documents/GitHub/Craft/src/auth.c
-
-CMakeFiles/craft.dir/src/auth.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/craft.dir/src/auth.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /Users/Prince/Documents/GitHub/Craft/src/auth.c > CMakeFiles/craft.dir/src/auth.c.i
-
-CMakeFiles/craft.dir/src/auth.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/craft.dir/src/auth.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /Users/Prince/Documents/GitHub/Craft/src/auth.c -o CMakeFiles/craft.dir/src/auth.c.s
-
-CMakeFiles/craft.dir/src/auth.c.o.requires:
-.PHONY : CMakeFiles/craft.dir/src/auth.c.o.requires
-
-CMakeFiles/craft.dir/src/auth.c.o.provides: CMakeFiles/craft.dir/src/auth.c.o.requires
-	$(MAKE) -f CMakeFiles/craft.dir/build.make CMakeFiles/craft.dir/src/auth.c.o.provides.build
-.PHONY : CMakeFiles/craft.dir/src/auth.c.o.provides
-
-CMakeFiles/craft.dir/src/auth.c.o.provides.build: CMakeFiles/craft.dir/src/auth.c.o
-
-CMakeFiles/craft.dir/src/client.c.o: CMakeFiles/craft.dir/flags.make
-CMakeFiles/craft.dir/src/client.c.o: src/client.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Prince/Documents/GitHub/Craft/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/craft.dir/src/client.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/craft.dir/src/client.c.o   -c /Users/Prince/Documents/GitHub/Craft/src/client.c
-
-CMakeFiles/craft.dir/src/client.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/craft.dir/src/client.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /Users/Prince/Documents/GitHub/Craft/src/client.c > CMakeFiles/craft.dir/src/client.c.i
-
-CMakeFiles/craft.dir/src/client.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/craft.dir/src/client.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /Users/Prince/Documents/GitHub/Craft/src/client.c -o CMakeFiles/craft.dir/src/client.c.s
-
-CMakeFiles/craft.dir/src/client.c.o.requires:
-.PHONY : CMakeFiles/craft.dir/src/client.c.o.requires
-
-CMakeFiles/craft.dir/src/client.c.o.provides: CMakeFiles/craft.dir/src/client.c.o.requires
-	$(MAKE) -f CMakeFiles/craft.dir/build.make CMakeFiles/craft.dir/src/client.c.o.provides.build
-.PHONY : CMakeFiles/craft.dir/src/client.c.o.provides
-
-CMakeFiles/craft.dir/src/client.c.o.provides.build: CMakeFiles/craft.dir/src/client.c.o
-
 CMakeFiles/craft.dir/src/cube.c.o: CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/src/cube.c.o: src/cube.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Prince/Documents/GitHub/Craft/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Prince/Documents/GitHub/Craft/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/craft.dir/src/cube.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/craft.dir/src/cube.c.o   -c /Users/Prince/Documents/GitHub/Craft/src/cube.c
 
@@ -120,7 +74,7 @@ CMakeFiles/craft.dir/src/cube.c.o.provides.build: CMakeFiles/craft.dir/src/cube.
 
 CMakeFiles/craft.dir/src/db.c.o: CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/src/db.c.o: src/db.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Prince/Documents/GitHub/Craft/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Prince/Documents/GitHub/Craft/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/craft.dir/src/db.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/craft.dir/src/db.c.o   -c /Users/Prince/Documents/GitHub/Craft/src/db.c
 
@@ -143,7 +97,7 @@ CMakeFiles/craft.dir/src/db.c.o.provides.build: CMakeFiles/craft.dir/src/db.c.o
 
 CMakeFiles/craft.dir/src/item.c.o: CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/src/item.c.o: src/item.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Prince/Documents/GitHub/Craft/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Prince/Documents/GitHub/Craft/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/craft.dir/src/item.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/craft.dir/src/item.c.o   -c /Users/Prince/Documents/GitHub/Craft/src/item.c
 
@@ -166,7 +120,7 @@ CMakeFiles/craft.dir/src/item.c.o.provides.build: CMakeFiles/craft.dir/src/item.
 
 CMakeFiles/craft.dir/src/main.c.o: CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/src/main.c.o: src/main.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Prince/Documents/GitHub/Craft/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Prince/Documents/GitHub/Craft/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/craft.dir/src/main.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/craft.dir/src/main.c.o   -c /Users/Prince/Documents/GitHub/Craft/src/main.c
 
@@ -189,7 +143,7 @@ CMakeFiles/craft.dir/src/main.c.o.provides.build: CMakeFiles/craft.dir/src/main.
 
 CMakeFiles/craft.dir/src/map.c.o: CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/src/map.c.o: src/map.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Prince/Documents/GitHub/Craft/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Prince/Documents/GitHub/Craft/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/craft.dir/src/map.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/craft.dir/src/map.c.o   -c /Users/Prince/Documents/GitHub/Craft/src/map.c
 
@@ -212,7 +166,7 @@ CMakeFiles/craft.dir/src/map.c.o.provides.build: CMakeFiles/craft.dir/src/map.c.
 
 CMakeFiles/craft.dir/src/matrix.c.o: CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/src/matrix.c.o: src/matrix.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Prince/Documents/GitHub/Craft/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Prince/Documents/GitHub/Craft/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/craft.dir/src/matrix.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/craft.dir/src/matrix.c.o   -c /Users/Prince/Documents/GitHub/Craft/src/matrix.c
 
@@ -235,7 +189,7 @@ CMakeFiles/craft.dir/src/matrix.c.o.provides.build: CMakeFiles/craft.dir/src/mat
 
 CMakeFiles/craft.dir/src/ring.c.o: CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/src/ring.c.o: src/ring.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Prince/Documents/GitHub/Craft/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Prince/Documents/GitHub/Craft/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/craft.dir/src/ring.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/craft.dir/src/ring.c.o   -c /Users/Prince/Documents/GitHub/Craft/src/ring.c
 
@@ -258,7 +212,7 @@ CMakeFiles/craft.dir/src/ring.c.o.provides.build: CMakeFiles/craft.dir/src/ring.
 
 CMakeFiles/craft.dir/src/sign.c.o: CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/src/sign.c.o: src/sign.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Prince/Documents/GitHub/Craft/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Prince/Documents/GitHub/Craft/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/craft.dir/src/sign.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/craft.dir/src/sign.c.o   -c /Users/Prince/Documents/GitHub/Craft/src/sign.c
 
@@ -281,7 +235,7 @@ CMakeFiles/craft.dir/src/sign.c.o.provides.build: CMakeFiles/craft.dir/src/sign.
 
 CMakeFiles/craft.dir/src/util.c.o: CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/src/util.c.o: src/util.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Prince/Documents/GitHub/Craft/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Prince/Documents/GitHub/Craft/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/craft.dir/src/util.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/craft.dir/src/util.c.o   -c /Users/Prince/Documents/GitHub/Craft/src/util.c
 
@@ -304,7 +258,7 @@ CMakeFiles/craft.dir/src/util.c.o.provides.build: CMakeFiles/craft.dir/src/util.
 
 CMakeFiles/craft.dir/src/world.c.o: CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/src/world.c.o: src/world.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Prince/Documents/GitHub/Craft/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Prince/Documents/GitHub/Craft/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/craft.dir/src/world.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/craft.dir/src/world.c.o   -c /Users/Prince/Documents/GitHub/Craft/src/world.c
 
@@ -327,7 +281,7 @@ CMakeFiles/craft.dir/src/world.c.o.provides.build: CMakeFiles/craft.dir/src/worl
 
 CMakeFiles/craft.dir/deps/glew/src/glew.c.o: CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/deps/glew/src/glew.c.o: deps/glew/src/glew.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Prince/Documents/GitHub/Craft/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Prince/Documents/GitHub/Craft/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/craft.dir/deps/glew/src/glew.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/craft.dir/deps/glew/src/glew.c.o   -c /Users/Prince/Documents/GitHub/Craft/deps/glew/src/glew.c
 
@@ -350,7 +304,7 @@ CMakeFiles/craft.dir/deps/glew/src/glew.c.o.provides.build: CMakeFiles/craft.dir
 
 CMakeFiles/craft.dir/deps/lodepng/lodepng.c.o: CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/deps/lodepng/lodepng.c.o: deps/lodepng/lodepng.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Prince/Documents/GitHub/Craft/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Prince/Documents/GitHub/Craft/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/craft.dir/deps/lodepng/lodepng.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/craft.dir/deps/lodepng/lodepng.c.o   -c /Users/Prince/Documents/GitHub/Craft/deps/lodepng/lodepng.c
 
@@ -373,7 +327,7 @@ CMakeFiles/craft.dir/deps/lodepng/lodepng.c.o.provides.build: CMakeFiles/craft.d
 
 CMakeFiles/craft.dir/deps/noise/noise.c.o: CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/deps/noise/noise.c.o: deps/noise/noise.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Prince/Documents/GitHub/Craft/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Prince/Documents/GitHub/Craft/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/craft.dir/deps/noise/noise.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/craft.dir/deps/noise/noise.c.o   -c /Users/Prince/Documents/GitHub/Craft/deps/noise/noise.c
 
@@ -396,7 +350,7 @@ CMakeFiles/craft.dir/deps/noise/noise.c.o.provides.build: CMakeFiles/craft.dir/d
 
 CMakeFiles/craft.dir/deps/sqlite/sqlite3.c.o: CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/deps/sqlite/sqlite3.c.o: deps/sqlite/sqlite3.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Prince/Documents/GitHub/Craft/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Prince/Documents/GitHub/Craft/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/craft.dir/deps/sqlite/sqlite3.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/craft.dir/deps/sqlite/sqlite3.c.o   -c /Users/Prince/Documents/GitHub/Craft/deps/sqlite/sqlite3.c
 
@@ -419,7 +373,7 @@ CMakeFiles/craft.dir/deps/sqlite/sqlite3.c.o.provides.build: CMakeFiles/craft.di
 
 CMakeFiles/craft.dir/deps/tinycthread/tinycthread.c.o: CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/deps/tinycthread/tinycthread.c.o: deps/tinycthread/tinycthread.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Prince/Documents/GitHub/Craft/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Prince/Documents/GitHub/Craft/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/craft.dir/deps/tinycthread/tinycthread.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/craft.dir/deps/tinycthread/tinycthread.c.o   -c /Users/Prince/Documents/GitHub/Craft/deps/tinycthread/tinycthread.c
 
@@ -442,8 +396,6 @@ CMakeFiles/craft.dir/deps/tinycthread/tinycthread.c.o.provides.build: CMakeFiles
 
 # Object files for target craft
 craft_OBJECTS = \
-"CMakeFiles/craft.dir/src/auth.c.o" \
-"CMakeFiles/craft.dir/src/client.c.o" \
 "CMakeFiles/craft.dir/src/cube.c.o" \
 "CMakeFiles/craft.dir/src/db.c.o" \
 "CMakeFiles/craft.dir/src/item.c.o" \
@@ -463,8 +415,6 @@ craft_OBJECTS = \
 # External object files for target craft
 craft_EXTERNAL_OBJECTS =
 
-craft: CMakeFiles/craft.dir/src/auth.c.o
-craft: CMakeFiles/craft.dir/src/client.c.o
 craft: CMakeFiles/craft.dir/src/cube.c.o
 craft: CMakeFiles/craft.dir/src/db.c.o
 craft: CMakeFiles/craft.dir/src/item.c.o
@@ -493,8 +443,6 @@ craft: CMakeFiles/craft.dir/link.txt
 CMakeFiles/craft.dir/build: craft
 .PHONY : CMakeFiles/craft.dir/build
 
-CMakeFiles/craft.dir/requires: CMakeFiles/craft.dir/src/auth.c.o.requires
-CMakeFiles/craft.dir/requires: CMakeFiles/craft.dir/src/client.c.o.requires
 CMakeFiles/craft.dir/requires: CMakeFiles/craft.dir/src/cube.c.o.requires
 CMakeFiles/craft.dir/requires: CMakeFiles/craft.dir/src/db.c.o.requires
 CMakeFiles/craft.dir/requires: CMakeFiles/craft.dir/src/item.c.o.requires

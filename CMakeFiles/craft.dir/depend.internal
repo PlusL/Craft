@@ -16,12 +16,6 @@ CMakeFiles/craft.dir/deps/sqlite/sqlite3.c.o
 CMakeFiles/craft.dir/deps/tinycthread/tinycthread.c.o
  /Users/Prince/Documents/GitHub/Craft/deps/tinycthread/tinycthread.c
  /Users/Prince/Documents/GitHub/Craft/deps/tinycthread/tinycthread.h
-CMakeFiles/craft.dir/src/auth.c.o
- /Users/Prince/Documents/GitHub/Craft/src/auth.c
- /Users/Prince/Documents/GitHub/Craft/src/auth.h
-CMakeFiles/craft.dir/src/client.c.o
- /Users/Prince/Documents/GitHub/Craft/src/client.c
- deps/tinycthread/tinycthread.h
 CMakeFiles/craft.dir/src/cube.c.o
  /Users/Prince/Documents/GitHub/Craft/src/config.h
  /Users/Prince/Documents/GitHub/Craft/src/cube.c
@@ -47,7 +41,6 @@ CMakeFiles/craft.dir/src/item.c.o
  deps/glew/include/GL/glew.h
  deps/glfw/include/GLFW/glfw3.h
 CMakeFiles/craft.dir/src/main.c.o
- /Users/Prince/Documents/GitHub/Craft/src/auth.h
  /Users/Prince/Documents/GitHub/Craft/src/config.h
  /Users/Prince/Documents/GitHub/Craft/src/cube.h
  /Users/Prince/Documents/GitHub/Craft/src/db.h

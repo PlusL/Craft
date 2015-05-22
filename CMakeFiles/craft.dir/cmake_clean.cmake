@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/craft.dir/src/auth.c.o"
-  "CMakeFiles/craft.dir/src/client.c.o"
   "CMakeFiles/craft.dir/src/cube.c.o"
   "CMakeFiles/craft.dir/src/db.c.o"
   "CMakeFiles/craft.dir/src/item.c.o"

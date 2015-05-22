@@ -16,12 +16,6 @@ CMakeFiles/craft.dir/deps/sqlite/sqlite3.c.o: deps/sqlite/sqlite3.c
 CMakeFiles/craft.dir/deps/tinycthread/tinycthread.c.o: deps/tinycthread/tinycthread.c
 CMakeFiles/craft.dir/deps/tinycthread/tinycthread.c.o: deps/tinycthread/tinycthread.h
 
-CMakeFiles/craft.dir/src/auth.c.o: src/auth.c
-CMakeFiles/craft.dir/src/auth.c.o: src/auth.h
-
-CMakeFiles/craft.dir/src/client.c.o: src/client.c
-CMakeFiles/craft.dir/src/client.c.o: deps/tinycthread/tinycthread.h
-
 CMakeFiles/craft.dir/src/cube.c.o: src/config.h
 CMakeFiles/craft.dir/src/cube.c.o: src/cube.c
 CMakeFiles/craft.dir/src/cube.c.o: src/cube.h
@@ -46,7 +40,6 @@ CMakeFiles/craft.dir/src/item.c.o: src/util.h
 CMakeFiles/craft.dir/src/item.c.o: deps/glew/include/GL/glew.h
 CMakeFiles/craft.dir/src/item.c.o: deps/glfw/include/GLFW/glfw3.h
 
-CMakeFiles/craft.dir/src/main.c.o: src/auth.h
 CMakeFiles/craft.dir/src/main.c.o: src/config.h
 CMakeFiles/craft.dir/src/main.c.o: src/cube.h
 CMakeFiles/craft.dir/src/main.c.o: src/db.h

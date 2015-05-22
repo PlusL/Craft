@@ -291,54 +291,6 @@ deps/tinycthread/tinycthread.c.s:
 	$(MAKE) -f CMakeFiles/craft.dir/build.make CMakeFiles/craft.dir/deps/tinycthread/tinycthread.c.s
 .PHONY : deps/tinycthread/tinycthread.c.s
 
-src/auth.o: src/auth.c.o
-.PHONY : src/auth.o
-
-# target to build an object file
-src/auth.c.o:
-	$(MAKE) -f CMakeFiles/craft.dir/build.make CMakeFiles/craft.dir/src/auth.c.o
-.PHONY : src/auth.c.o
-
-src/auth.i: src/auth.c.i
-.PHONY : src/auth.i
-
-# target to preprocess a source file
-src/auth.c.i:
-	$(MAKE) -f CMakeFiles/craft.dir/build.make CMakeFiles/craft.dir/src/auth.c.i
-.PHONY : src/auth.c.i
-
-src/auth.s: src/auth.c.s
-.PHONY : src/auth.s
-
-# target to generate assembly for a file
-src/auth.c.s:
-	$(MAKE) -f CMakeFiles/craft.dir/build.make CMakeFiles/craft.dir/src/auth.c.s
-.PHONY : src/auth.c.s
-
-src/client.o: src/client.c.o
-.PHONY : src/client.o
-
-# target to build an object file
-src/client.c.o:
-	$(MAKE) -f CMakeFiles/craft.dir/build.make CMakeFiles/craft.dir/src/client.c.o
-.PHONY : src/client.c.o
-
-src/client.i: src/client.c.i
-.PHONY : src/client.i
-
-# target to preprocess a source file
-src/client.c.i:
-	$(MAKE) -f CMakeFiles/craft.dir/build.make CMakeFiles/craft.dir/src/client.c.i
-.PHONY : src/client.c.i
-
-src/client.s: src/client.c.s
-.PHONY : src/client.s
-
-# target to generate assembly for a file
-src/client.c.s:
-	$(MAKE) -f CMakeFiles/craft.dir/build.make CMakeFiles/craft.dir/src/client.c.s
-.PHONY : src/client.c.s
-
 src/cube.o: src/cube.c.o
 .PHONY : src/cube.o
 
@@ -608,12 +560,6 @@ help:
 	@echo "... deps/tinycthread/tinycthread.o"
 	@echo "... deps/tinycthread/tinycthread.i"
 	@echo "... deps/tinycthread/tinycthread.s"
-	@echo "... src/auth.o"
-	@echo "... src/auth.i"
-	@echo "... src/auth.s"
-	@echo "... src/client.o"
-	@echo "... src/client.i"
-	@echo "... src/client.s"
 	@echo "... src/cube.o"
 	@echo "... src/cube.i"
 	@echo "... src/cube.s"
