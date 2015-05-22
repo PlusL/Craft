@@ -118,18 +118,18 @@ typedef struct {
 typedef struct {
     GLFWwindow *window;
     Worker workers[WORKERS];
-    Chunk chunks[MAX_CHUNKS];
-    int chunk_count;
-    int create_radius;
-    int render_radius;
-    int delete_radius;
-    int sign_radius;
-    Player players[MAX_PLAYERS];
+    Chunk chunks[MAX_CHUNKS];                                       //最大块数
+    int chunk_count;                                                //块数
+    int create_radius;                                              //创造半径
+    int render_radius;                                              //渲染半径
+    int delete_radius;                                              //删除半径
+    int sign_radius;                                                //标志半径
+    Player players[MAX_PLAYERS];                
     int player_count;
-    int typing;
-    char typing_buffer[MAX_TEXT_LENGTH];
-    int message_index;
-    char messages[MAX_MESSAGES][MAX_TEXT_LENGTH];
+    // int typing;
+    // char typing_buffer[MAX_TEXT_LENGTH];
+    // int message_index;
+    // char messages[MAX_MESSAGES][MAX_TEXT_LENGTH];
     int width;
     int height;
     int observe1;
@@ -143,8 +143,8 @@ typedef struct {
     int mode;
     int mode_changed;
     char db_path[MAX_PATH_LENGTH];
-    char server_addr[MAX_ADDR_LENGTH];
-    int server_port;
+    // char server_addr[MAX_ADDR_LENGTH];
+    // int server_port;
     int day_length;
     int time_changed;
     Block block0;
@@ -1801,12 +1801,12 @@ void render_text(
     del_buffer(buffer);
 }
 
-void add_message(const char *text) {
-    printf("%s\n", text);
-    snprintf(
-        g->messages[g->message_index], MAX_TEXT_LENGTH, "%s", text);
-    g->message_index = (g->message_index + 1) % MAX_MESSAGES;
-}
+// void add_message(const char *text) {
+//     printf("%s\n", text);
+//     snprintf(
+//         g->messages[g->message_index], MAX_TEXT_LENGTH, "%s", text);
+//     g->message_index = (g->message_index + 1) % MAX_MESSAGES;
+// }
 
 // void login() {
 //     char username[128] = {0};
@@ -2182,23 +2182,23 @@ void on_key(GLFWwindow *window, int key, int scancode, int action, int mods) {
         return;
     }
     if (key == GLFW_KEY_BACKSPACE) {
-        if (g->typing) {
-            int n = strlen(g->typing_buffer);
-            if (n > 0) {
-                g->typing_buffer[n - 1] = '\0';
-            }
-        }
+        // if (g->typing) {
+        //     int n = strlen(g->typing_buffer);
+        //     if (n > 0) {
+        //         g->typing_buffer[n - 1] = '\0';
+        //     }
+        // }
     }
     if (action != GLFW_PRESS) {
         return;
     }
     if (key == GLFW_KEY_ESCAPE) {
-        if (g->typing) {
-            g->typing = 0;
-        }
-        else if (exclusive) {
+        // if (g->typing) {
+        //     g->typing = 0;
+        // }
+        // else if (exclusive) {
             glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_NORMAL);
-        }
+        // }
     }
     // if (key == GLFW_KEY_ENTER) {
     //     if (g->typing) {
@@ -2235,18 +2235,18 @@ void on_key(GLFWwindow *window, int key, int scancode, int action, int mods) {
     //         }
     //     }
     // }
-    if (control && key == 'V') {
-        const char *buffer = glfwGetClipboardString(window);
-        if (g->typing) {
-            g->suppress_char = 1;
-            strncat(g->typing_buffer, buffer,
-                MAX_TEXT_LENGTH - strlen(g->typing_buffer) - 1);
-        }
-        else {
-            // parse_command(buffer, 0);
-        }
-    }
-    if (!g->typing) {
+    // if (control && key == 'V') {
+    //     const char *buffer = glfwGetClipboardString(window);
+    //     if (g->typing) {
+    //         g->suppress_char = 1;
+    //         strncat(g->typing_buffer, buffer,
+    //             MAX_TEXT_LENGTH - strlen(g->typing_buffer) - 1);
+    //     }
+    //     else {
+    //         // parse_command(buffer, 0);
+    //     }
+    // }
+    // if (!g->typing) {
         if (key == CRAFT_KEY_FLY) {
             g->flying = !g->flying;
         }
@@ -2271,7 +2271,7 @@ void on_key(GLFWwindow *window, int key, int scancode, int action, int mods) {
         // if (key == CRAFT_KEY_OBSERVE_INSET) {
         //     g->observe2 = (g->observe2 + 1) % g->player_count;
         // }
-    }
+    // }
 }
 
 // void on_char(GLFWwindow *window, unsigned int u) {
@@ -2413,7 +2413,7 @@ void handle_movement(double dt) {
     State *s = &g->players->state;
     int sz = 0;
     int sx = 0;
-    if (!g->typing) {
+    // if (!g->typing) {
         float m = dt * 1.0;
         g->ortho = glfwGetKey(g->window, CRAFT_KEY_ORTHO) ? 64 : 0;
         g->fov = glfwGetKey(g->window, CRAFT_KEY_ZOOM) ? 15 : 65;
@@ -2425,10 +2425,10 @@ void handle_movement(double dt) {
         if (glfwGetKey(g->window, GLFW_KEY_RIGHT)) s->rx += m;
         if (glfwGetKey(g->window, GLFW_KEY_UP)) s->ry += m;
         if (glfwGetKey(g->window, GLFW_KEY_DOWN)) s->ry -= m;
-    }
+    // }
     float vx, vy, vz;
     get_motion_vector(g->flying, sz, sx, s->rx, s->ry, &vx, &vy, &vz);
-    if (!g->typing) {
+    // if (!g->typing) {
         if (glfwGetKey(g->window, CRAFT_KEY_JUMP)) {
             if (g->flying) {
                 vy = 1;
@@ -2437,7 +2437,7 @@ void handle_movement(double dt) {
                 dy = 8;
             }
         }
-    }
+    // }
     float speed = g->flying ? 20 : 5;
     int estimate = roundf(sqrtf(
         powf(vx * speed, 2) +
@@ -2574,10 +2574,10 @@ void reset_model() {
     g->observe2 = 0;
     g->flying = 0;
     g->item_index = 0;
-    memset(g->typing_buffer, 0, sizeof(char) * MAX_TEXT_LENGTH);
-    g->typing = 0;
-    memset(g->messages, 0, sizeof(char) * MAX_MESSAGES * MAX_TEXT_LENGTH);
-    g->message_index = 0;
+    // memset(g->typing_buffer, 0, sizeof(char) * MAX_TEXT_LENGTH);
+    // g->typing = 0;
+    // memset(g->messages, 0, sizeof(char) * MAX_MESSAGES * MAX_TEXT_LENGTH);
+    // g->message_index = 0;
     g->day_length = DAY_LENGTH;
     glfwSetTime(g->day_length / 3.0);
     g->time_changed = 1;
@@ -2936,7 +2936,7 @@ int main(int argc, char **argv) {
                 }
             }
 
-            // SWAP AND POLL //
+            // 交换和查询 //
             glfwSwapBuffers(g->window);
             glfwPollEvents();
             if (glfwWindowShouldClose(g->window)) {
@@ -2949,7 +2949,7 @@ int main(int argc, char **argv) {
             }
         }
 
-        // SHUTDOWN //
+        // 关闭 //
         db_save_state(s->x, s->y, s->z, s->rx, s->ry);
         db_close();
         db_disable();
